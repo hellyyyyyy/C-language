@@ -5,8 +5,3 @@ int main(){
 	printf("School: Ashadeep International School\n");
 	return 0;
 }
-#include<stdio.h>
-int main() {
-	printf("hhhhhhh");
-	return 0;
-}
