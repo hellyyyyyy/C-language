@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-	printf("Name: HELLY\n");
-	printf("Age : 17\n");
-	printf("School: Ashadeep International School\n");
+	float pie=3.14;
+	int r=4;
+	float area;
+	area= pie*r*r;
+	printf("%f",area);
 	return 0;
 }

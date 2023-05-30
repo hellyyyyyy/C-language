@@ -1,13 +1,10 @@
 #include<stdio.h>
 int main(){
-	printf(" - - -\n");
-	printf("|     |\n");
-	printf("H     |\n");
-	printf("E     |\n");
-	printf("L     |\n");
-	printf("L     |\n");
-	printf("Y     |\n");
-	printf("|     |\n");
-	printf(" - - -\n");
-		return 0;
+	int l=6;
+	int b=10;
+	int area;
+	area=l*b;
+	printf("Area Of Rectangle:");
+	printf("%d",area);
+	return 0;
 }

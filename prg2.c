@@ -1,11 +1,9 @@
 #include<stdio.h>
-int main() {
-	printf("- - - - -\n");
-	printf("|       |\n");
-	printf("|       |\n");
-	printf("| Helly |\n");
-	printf("|       |\n");
-	printf("|       |\n");
-	printf("- - - - -\n");
+int main(){
+	int l=4;
+	int area;
+	area=l*l;
+	printf("area of square:");
+	printf("%d",area);
 	return 0;
 }
