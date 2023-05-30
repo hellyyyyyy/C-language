@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main(){
-	int l=6;
-	int b=10;
-	int area;
-	area=l*b;
-	printf("Area Of Rectangle:");
-	printf("%d",area);
+	int a=20;
+	int b=30;
+	int c;
+	c=a;
+	a=b;
+	b=c;
+	printf("a: %d\n",a);
+	printf("b: %d",b);
 	return 0;
 }
