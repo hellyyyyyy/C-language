@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-	int p=40;
-	int r=5;
-	int t=5;
-	int SI;
-	SI = p*r*t/100;
-	printf("SIMPLE INTREST(SI):");
-	printf("%d",SI);
+	int x,y,z,ans;
+	printf("value of x:");
+	scanf("%d",&x);
+	printf("value of y:");
+	scanf("%d",&y);
+	printf("value of z:");
+	scanf("%d",&z);
+	ans =(x*x*x) + (y*y*y) + (z*z*z) + 3*(x+y)*(y+z)*(x+z);
+	printf("(x+y+z)3 %d",ans);
 	return 0;
 }
