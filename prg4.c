@@ -1,11 +1,12 @@
 #include<stdio.h>
-int main(){
-	int x,y,ans;
-	printf("value of x:");
+int main() {
+	int x,y,division;
+	printf("Enter Value Of x:");
 	scanf("%d",&x);
-	printf("value of y:");
+	printf("Enter Value Of y:");
 	scanf("%d",&y);
-	ans =(x*x*x) - ((3*x*y)*(x-y)) - (y*y*y);
-	printf("(x-y)3: %d",ans);
+	division=x/y;
+	printf("division: %d",division);
+	
 	return 0;
 }

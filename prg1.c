@@ -1,13 +1,12 @@
 #include<stdio.h>
-int main(){
-	int x;
-	int y;
-    int ans;
-    printf("value of x:");
+int main() {
+	int x,y,sum;
+	printf("Enter Value Of x:");
 	scanf("%d",&x);
-	printf("value of y:");
-	scanf("%d",&y);	
-    ans = (x*x) + (2*x*y) + (y*y);
-    printf("(x+y)²:  %d",ans);
+	printf("Enter Value Of y:");
+	scanf("%d",&y);
+	sum=x+y;
+	printf("sum: %d",sum);
+	
 	return 0;
 }
