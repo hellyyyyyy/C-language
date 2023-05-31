@@ -6,7 +6,7 @@ int main() {
 	printf("Enter Value Of y:");
 	scanf("%d",&y);
 	modulus =(x%y);
-	printf("modulus: %.2d",modulus);
+	printf("modulus: %d",modulus);
 	
 	return 0;
 }
