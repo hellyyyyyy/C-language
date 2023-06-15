@@ -6,10 +6,14 @@ int main(){
 		for(k=r;k<5;k++){
 			printf(" ");
 		}
-		for(c=1;c<=r;c++){
-			printf("%d",r);
+	for(c=1;c<=r;c++){
+		if(r%2==0){
+			printf("0");
+		}else{
+			printf("1");
 		}
-		printf("\n");
+	}	
+	printf("\n");
 	}
 	
 	
