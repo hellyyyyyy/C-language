@@ -13,7 +13,7 @@ int main(){
 	}
 	for(i=0;i<n;i++){
 		if(a[i]<0){
-			printf("Negative value: %d\t",a[i]);
+			printf("Negative value: %d\n",a[i]);
 		}
 	}
 	
