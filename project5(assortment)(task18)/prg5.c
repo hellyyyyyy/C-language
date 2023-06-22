@@ -13,7 +13,7 @@ int main(){
     
     for(i=0;i<m;i++){
     	for(j=0;j<n;j++){
-    		printf("Enter value:");
+    		printf("\nEnter value:");
     		scanf("%d",&a[i][j]);
 		}
 	}
