@@ -16,10 +16,11 @@ int main(){
 	
 	struct Student stu[n];
 	
+	
 	int i;
 	for(i=0;i<n;i++){
 		
-		printf("\nEnter details for student %d\n",i+1);
+		printf("\nEnter details for student %d:\n",i+1);
 		
 		printf("Id:");
 		scanf("%d",&stu[i].stu_id);
@@ -47,7 +48,7 @@ int main(){
 	
 	for(i=0;i<n;i++){
 		
-		printf("\n\nStudent %d Details:",i+1);
+		printf("\nStudent %d Details:\n",i+1);
 		
 		printf("Id: %d\n",stu[i].stu_id);
 		
